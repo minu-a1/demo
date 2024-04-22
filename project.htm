@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            background-color: RED;
+            color: white;
+            position: fixed;
+            width: 100%;
+        }
+
+        .logo img{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+        .list{
+            display: none;
+            list-style: none;
+            gap: 40px;
+            margin-top: 20px;
+            font-size: 20px;
+            /* display: none; */
+        }
+        li:hover{
+            color: yellow;
+            cursor: pointer;
+        }
+        .bar{
+            font-size: 40px;
+            margin-top: 10px;
+            display: flex;
+            /* display: none; */
+        }
+
+.sec1{
+    width: 1300px;
+    height: 500px;
+    margin-left: 60px;
+     background-color:aquamarine ;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 10px;
+}
+
+
+button{
+    color: white;
+    background-color:plum;
+    border: 4px;
+    padding: 10px 20px;
+    border-radius: 10px
+}
+
+.text{
+    text-align: center;
+}
+.sec1 img{
+    width: 300px;
+    margin: auto;
+   
+}
+
+        @media only screen and (min-width:600px) {
+.list{
+    display: flex;
+}
+.bar{
+    display: none;
+}
+
+/* .sec1 */
+.sec1{
+    flex-direction: row;
+}
+.text{
+    text-align: start;
+    margin-top: 100px;
+    padding: 5px 20px;
+}
+
+.sec1 img{
+    width: 450px;
+    margin: auto;
+    border-radius: 10px;
+}
+.logo:hover img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+
+            
+        }
+        .a{
+    height: 200px;
+    width:1500px;
+    background-color:yellowgreen;
+   } 
+   .b{
+    height: 200px;
+    width:1500px;
+    background-color:rgb(216, 188, 1);
+   } 
+   .c{
+    height: 200px;
+    width:1500px;
+    background-color:rgb(251, 31, 31);
+   } 
+   .d{
+    height: 200px;
+    width:1500px;
+    background-color:rgb(205, 50, 151);
+   } 
+   .e{
+    height: 200px;
+    width:1500px;
+    background-color:rgb(50, 73, 205);
+   } 
+    </style>
+    <body>
+    
+
+    <nav>
+        <div class="logo">
+            <img src="./minupic.jpg" alt="girl">
+        </div>
+        <div class="list">
+            <a href="index.htm"> <li>ABOUT </li></a>
+            <a href="nmeaning.htm"> <li>NAME MEANING </li></a>
+            <a href="e.htm"><li>EDUCATIONAL DETAILS </li></a>
+            <a href="h.htm"> <li>HOBBIES AND INTRESTS </li></a> 
+            <a href="m.htm"> <li>MORE ABOUT MYSELF</li></a>
+             <a href="project.htm"><li> MY MINI PROJECTS</li></a> 
+        </div>
+        <div class="bar">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    </nav>  
+</body>
+<br><br><br>
+<div class="a"> <br><br><br><br><center><a href="index.htm"><button>project 1</button></a></center></div>
+<div class="b"><br><br><br><br><center><button>project 2</button></center></div>
+<div class="c"><br><br><br><br><center><button>project 3</button></center></div>
+<div class="d"><br><br><br><br><center><button>project 4</button></center></div>
+<div class="e"><br><br><br><br><center><button>project 5</button></center></div>
+</html>

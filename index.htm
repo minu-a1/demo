@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    
+    <!-- (Optional) Use CSS or JS implementation -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+        integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            background-color: RED;
+            color: white;
+            position: fixed;
+            width: 100%;
+        }
+
+        .logo img{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+        .list{
+            display: none;
+            list-style: none;
+            gap: 40px;
+            margin-top: 20px;
+            font-size: 20px;
+            /* display: none; */
+        }
+        li:hover{
+            color: yellow;
+            cursor: pointer;
+        }
+        .bar{
+            font-size: 40px;
+            margin-top: 10px;
+            display: flex;
+            /* display: none; */
+        }
+
+.sec1{
+    width: 1300px;
+    height: 500px;
+    margin-left: 60px;
+     background-color:aquamarine ;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 10px;
+}
+
+
+button{
+    color: white;
+    background-color:plum;
+    border: 4px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: aqua;
+    color:yellowgreen;
+}
+
+.text{
+    text-align: center;
+}
+.sec1 img{
+    width: 300px;
+    margin: auto;
+   
+}
+
+        @media only screen and (min-width:600px) {
+.list{
+    display: flex;
+}
+.bar{
+    display: none;
+}
+
+/* .sec1 */
+.sec1{
+    flex-direction: row;
+}
+.text{
+    text-align: start;
+    margin-top: 100px;
+    padding: 5px 20px;
+}
+
+.sec1 img{
+    width: 450px;
+    margin: auto;
+    border-radius: 10px;
+}
+.logo:hover img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./minupic.jpg" alt="girl">
+        </div>
+        <div class="list">
+            <a href="index.htm"> <li>ABOUT </li></a>
+            <a href="nmeaning.htm"> <li>NAME MEANING </li></a>
+            <a href="e.htm"><li>EDUCATIONAL DETAILS </li></a>
+            <a href="h.htm"> <li>HOBBIES AND INTRESTS </li></a> 
+            <a href="m.htm"> <li>MORE ABOUT MYSELF</li></a>
+             <a href="project.htm"><li> MY MINI PROJECTS</li></a> 
+        </div>
+        <div class="bar">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    </nav>
+
+    <!-- ========== Start Section-1 ========== -->
+    
+    <div class="sec1">
+        <div class="text">
+            <h1 style="color:blue;">THIS IS MINAKSHI KUMARI PATHAK......</h1><br><br>
+            <p>I AM A LEARING AND PASSONATED JUNIOR WEB DEVELOPER AND HAVE BASIC KNOWLEGE IN <mark>HTML AND CSS</mark>  <br><br>I WORKED ON MINI PROJECTS ON HTML BASICS TAGS,HTML TABLES,FORMS,CASCADING STYLE SHEETS TARGETING CLASSESS,HOVER EFFECTS ,MARGIN ,PADDING,FLOAT AND MANY CSS EFFECTS...<br><Br></p> 
+                    <center>
+                    <H2>CLICK HERE IF YOU WANT TO EXPLORE MYSELF </H2></center>
+                    <br><br>
+            <center><button>EXPLORE ME</button></center>
+        </div>
+        <img src="//4.bp.blogspot.com/-OHlH1mGjDy8/VDl0JTRvMrI/AAAAAAAACx4/LRHQ0SWixxo/s1600/meenakshi.jpg" >
+
+        
+    </div>
+    <!-- ========== End Section-1 ========== -->
+    
+</body>
+</HTML>
